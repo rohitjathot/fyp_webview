@@ -23,12 +23,10 @@ public class MainActivity extends AppCompatActivity {
         myWebView.setWebViewClient(myWebViewClient);
         myWebView.addJavascriptInterface(new WebAppInterface(this), "Android");
         myWebView.loadUrl("http://www.prakashjavadekar.com");
-
     }
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
-        // Check if the key event was the Back button and if there's history
         if ((keyCode == KeyEvent.KEYCODE_BACK) && myWebView.canGoBack()) {
             myWebView.goBack();
             return true;
