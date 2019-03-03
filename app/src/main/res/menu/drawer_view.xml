@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/know_me_better"
+            android:title="KNOW ME BETTER" />
+        <item
+            android:id="@+id/my_journey"
+            android:title="MY JOURNEY" />
+        <item
+            android:id="@+id/media_coverage"
+            android:title="MEDIA COVERAGE" />
+        <item
+            android:id="@+id/multimedia"
+            android:title="MULTIMEDIA" />
+        <item
+            android:id="@+id/year_achievement_3"
+            android:title="3 YEAR ACHIEVEMENT" />
+        <item
+            android:id="@+id/year_achievement_4"
+            android:title="4 YEAR ACHIEVEMENT" />
+        <item
+            android:id="@+id/newslatter"
+            android:title="NEWSLETTER" />
+        <item
+            android:id="@+id/blog"
+            android:title="BLOG" />
+        <item
+            android:id="@+id/contact_me"
+            android:title="CONTACT ME" />
+    </group>
+</menu>
